@@ -10,7 +10,7 @@ from PIL import ImageTk, Image
 
 class_names = ['Airplane', 'Car', 'Bird', 'Cat', 'Deer', 'Dog', 'Frog', 'Horse', 'Ship', 'Truck']
 
-model = models.load_model('image_classifier93.model')
+model = models.load_model('Models/image_classifier93.model')
 
 def classify(file_path):
     img = cv.imread(file_path)
